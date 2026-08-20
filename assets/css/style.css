@@ -1,0 +1,63 @@
+/* ============================================================
+   style.css
+   Simple, clean styling for the Employee Profile Settings app.
+   Bootstrap handles most of the layout - this file only adds
+   the small extra touches the assignment asks for.
+   ============================================================ */
+
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ---------- Login page ---------- */
+.login-page {
+    background: linear-gradient(135deg, #0d6efd 0%, #084298 100%);
+}
+
+.login-page .card {
+    border: none;
+    border-radius: 0.75rem;
+}
+
+/* ---------- Profile header ---------- */
+.profile-header {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/* ---------- Cards ---------- */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.card + .card {
+    margin-top: 1rem;
+}
+
+/* ---------- Form spacing ---------- */
+.form-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form-text {
+    font-size: 0.8rem;
+}
+
+/* ---------- Bio character counter ---------- */
+#bioCounter {
+    font-size: 0.8rem;
+}
+
+#bioCounter.text-danger {
+    font-weight: 600;
+}
+
+/* ---------- Responsive tweaks ---------- */
+@media (max-width: 576px) {
+    .profile-header .btn {
+        margin-top: 0.5rem;
+    }
+}
