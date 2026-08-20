@@ -1,11 +1,4 @@
 <?php
-/**
- * index.php
- * ------------------------------------------------------------
- * Entry point of the application. It doesn't display anything
- * itself - it just sends the visitor to the right place.
- * ------------------------------------------------------------
- */
 
 session_start();
 
