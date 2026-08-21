@@ -1,14 +1,3 @@
--- ============================================================
--- EMPLOYEE PROFILE SETTINGS PAGE - DATABASE SETUP
--- ============================================================
--- This script creates the database, the employees table,
--- and inserts sample employee records for testing.
---
--- HOW TO USE:
--- 1. Open phpMyAdmin (or the MySQL command line).
--- 2. Import this file, or copy/paste its contents and run it.
--- ============================================================
-
 -- 1. Create the database (only if it does not already exist)
 CREATE DATABASE IF NOT EXISTS employee_hrms;
 
